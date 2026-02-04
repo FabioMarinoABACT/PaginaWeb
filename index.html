@@ -1,0 +1,350 @@
+<html>
+  
+<head>
+  <link rel="stylesheet" href="global.css">
+  <title>Fabio Marino</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+  <meta charset="UTF-8">
+  <style id="sections-styles">
+#header {
+  padding-top: 104px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 112px; 
+}
+
+.header-oggetto {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  /*max-width: 200px;*/
+}
+
+.header-oggetto.destra {
+  text-align: right;
+  margin-right: 87px;   
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0 20px;
+  }
+
+.header-oggetto.sinistra {
+    margin-left: 44px;
+  }
+}
+
+
+.primo-blocco {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.primo-blocco-titolo {
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*--------------------------------------*/
+
+.primo-blocco-titolo .prima-linea {
+  display: block;
+}
+
+.seconda-linea-titolo
+{
+  display: block;
+  font-size: 0.6em;
+}
+
+@media (max-width: 1024px) {
+  .primo-blocco-titolo {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primo-blocco-titolo {
+    font-size: 60px;
+  }
+  .primo-blocco {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+}
+
+
+.sezione {
+  margin-bottom: 150px;
+}
+
+.barra-rossa {
+  background-color: var(--color-red);
+  height: 170px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  position: relative;
+}
+
+.barra-sinistra {
+  border-radius: 0 85px 85px 0;
+  margin-left: -76px; 
+  padding-left: 116px; 
+  justify-content: flex-start;
+}
+
+.testo-barra {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.contenitore-testo {
+  margin-top: 60px;
+  padding-left: 40px;
+}
+
+.body-testo {
+  font-size: 32px;
+  line-height: 1.4;
+  max-width: 1360px;
+}
+
+@media (max-width: 1024px) {
+  .testo-barra {
+    font-size: 50px;
+  }
+  .barra-rossa {
+    height: 120px;
+    margin-left: -20px;
+    padding-left: 40px;
+  }
+  .body-testo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .barra-rossa {
+    border-radius: 0 40px 40px 0;
+    height: auto;
+    padding: 20px;
+    margin-left: 0;
+    width: 90%;
+  }
+  .testo-barra {
+    font-size: 32px;
+  }
+  .body-testo {
+    font-size: 18px;
+  }
+  .contenitore-testo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+.barra-rossa-contenitore-destra {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+
+/*--------------------------------------*/
+.barra-destra {
+  background-color: var(--color-red);
+  height: 170px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  border-radius: 85px 0 0 85px;
+  margin-right: -100px; 
+  padding-left: 140px;
+}
+
+@media (max-width: 1024px) {
+  .barra-destra {
+    height: 120px;
+    margin-right: -20px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .barra-destra {
+    border-radius: 40px 0 0 40px;
+    height: auto;
+    padding: 20px;
+    margin-right: 0;
+    width: 90%;
+  }
+}
+
+/*--------------------------------------*/
+.barra-sinistra-larghezza {
+  background-color: var(--color-red);
+  height: 170px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1441px; 
+  border-radius: 0 85px 85px 0;
+  margin-left: -95px;
+  padding-left: 135px;
+}
+
+@media (max-width: 1024px) {
+  .barra-sinistra-larghezza {
+    height: 120px;
+    margin-left: -20px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .barra-sinistra-larghezza {
+    border-radius: 0 40px 40px 0;
+    height: auto;
+    padding: 20px;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+
+#footer {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.citazione {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  padding-left: 160px; 
+}
+
+@media (max-width: 1024px) {
+  .citazione {
+    font-size: 40px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .citazione {
+    font-size: 24px;
+    padding-left: 0;
+  }
+  #footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+  </style>
+</head>
+<body>
+
+
+
+<section id="header">
+    <div class="header-oggetto sinistra">WEB DESIGN</div>
+    <div class="header-oggetto destra">FABIO<br>MARINO</div>
+</section>
+<section class="primo-blocco">
+  <div class="contenitore primo-blocco-contenitore">
+    <h1 class="primo-blocco-titolo">
+      <span class="prima-linea regular">La filosofia</span>
+      <span class="seconda-linea-titolo"><span class="testo-rosso">web</span> design</span>
+    </h1>
+  </div>
+</section>
+
+
+
+<section class="sezione">
+  <div class="barra-rossa barra-sinistra">
+    <h2 class="testo-barra">
+      <span class="testo-bianco">È una disciplina</span> di pensiero
+    </h2>
+  </div>
+  <div class="contenitore contenitore-testo">
+    <p class="body-testo">
+      L’articolo sottolinea che progettare per il web non significa semplicemente usare software, scegliere colori o disporre elementi su una griglia. Prima ancora della forma visiva, il web design riguarda decisioni concettuali: cosa comunicare, a chi, in quale contesto e con quali priorità.
+    </p>
+  </div>
+</section>
+
+
+
+<section class="sezione">
+  <div class="barra-rossa-contenitore-destra">
+    <div class="barra-rossa barra-destra">
+      <h2 class="testo-barra">
+        Il web ha <span class="testo-bianco">regole proprie</span>
+      </h2>
+    </div>
+  </div>
+  <div class="contenitore contenitore-testo">
+    <p class="body-testo">
+      Il web ha prodotto pratiche prima che teorie: nasce facendo, non teorizzando.<br>
+      Molta riflessione diffusa,<br>
+      Poca storia condivisa, poco canone.<br>
+      L’efficienza vince sull’espressione.<br>
+      Il design diventa infrastruttura.<br><br>
+      Quando funziona troppo bene, smette di farsi notare.
+    </p>
+  </div>
+</section>
+
+
+
+<section class="sezione">
+  <div class="barra-rossa barra-sinistra-larghezza">
+    <h2 class="testo-barra">
+      Conoscere i <span class="testo-bianco">testi fondamentali</span>
+    </h2>
+  </div>
+  <div class="contenitore contenitore-testo">
+    <p class="body-testo">
+      L’articolo sostiene che leggere i testi storici e teorici del web design non è un esercizio nostalgico, ma un modo per capire perché il web funziona come funziona. Molti problemi attuali (responsive design, accessibilità, complessità delle interfacce, centralità del contenuto) erano già stati affrontati anni fa da autori come Allsopp, Zeldman o Cooper.<br>
+      Questi testi aiutano a costruire una cultura progettuale: forniscono principi, valori e criteri decisionali che restano validi anche quando cambiano strumenti, framework e trend visivi. In questo senso, la teoria diventa pratica indiretta: non ti dice come disegnare un bottone, ma come pensare un’interfaccia, rendendo le scelte progettuali più consapevoli e meno dipendenti dalle mode del momento.
+    </p>
+  </div>
+</section>
+
+
+
+  <div class="contenitore">
+    <blockquote class="citazione">
+      Joe Sparano: “Good design is obvious. Great design is transparent.”<br>
+      → Il grande design è “invisibile”.
+    </blockquote>
+  </div>
+</body>
+</html>
